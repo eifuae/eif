@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>EIF AI Uploader & QR Service</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+<!-- خلفية فيديو -->
+<video id="bg-video" autoplay muted loop>
+  <source src="https://ahmedline.github.io/my-website/PC_Monitors.webm" type="video/webm">
+</video>
+<div class="overlay"></div>
+
+<!-- حروف EIF متساقطة بخفة -->
+<div class="falling-letters">
+  {% for i in range(40) %}
+    <span>{{ "EIF"[i%3] }}</span>
+  {% endfor %}
+</div>
+
+<!-- شريط متحرك في الأعلى -->
+<div class="marquee">
+  <div class="marquee-content">
+    EIF Ceremony Updates: New guests confirmed | The countdown has begun | Experience innovation & excellence
+  </div>
+</div>
+
+<div class="container">
+  <h1 class="title">EIF AI Uploader & QR</h1>
+  <p class="subtitle">Upload your file and get an instant QR code!</p>
+  
+  <input type="file" id="fileInput" style="margin-bottom:20px;">
+  <br>
+  <button id="uploadGitHub" class="gold-btn">Upload & Generate QR</button>
+
+  <div id="upload-result" class="result-msg"></div>
+
+  <div id="qrCodeContainer" style="margin-top:20px;"></div>
+  <a id="downloadQRLink" href="#" class="gold-btn hidden" style="margin-top:10px;">Download QR</a>
+</div>
+
+<div class="spinner-overlay hidden" id="spinner-overlay">
+  <div class="spinner"></div>
+  <div class="loading-text">Processing...</div>
+</div>
+
+<footer class="footer">
+  <small style="opacity:0.7;">Developed by Ahmed Al Buriki - Marketing Team</small>
+</footer>
+
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
+
