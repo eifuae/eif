@@ -1,0 +1,94 @@
+ * Serving Flask app 'caststorage'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.92:8000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 707-538-926
+ * Serving Flask app 'caststorage'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.92:8000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 111-875-085
+ * Serving Flask app 'server_market'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://192.168.1.92:8081
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 133-222-073
+127.0.0.1 - - [22/Dec/2024 07:07:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2024 07:08:00] "GET /static/css/styles2.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2024 07:08:00] "GET /static/js/scripts2.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2024 07:08:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2024 07:08:35] "GET /static/css/styles2.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2024 07:08:35] "GET /static/js/scripts2.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2024 07:08:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Serving Flask app 'server_market'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://192.168.1.92:8081
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 133-222-073
+ * Serving Flask app 'server_market'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://192.168.1.92:8081
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 133-222-073
+127.0.0.1 - - [22/Dec/2024 07:10:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2024 07:10:48] "[36mGET /static/css/styles2.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [22/Dec/2024 07:10:49] "[36mGET /static/js/scripts2.js HTTP/1.1[0m" 304 -
+ * Serving Flask app 'caststorage'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.92:8000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 920-759-772
+127.0.0.1 - - [22/Dec/2024 17:15:47] "[32mGET / HTTP/1.0[0m" 302 -
+127.0.0.1 - - [22/Dec/2024 17:15:47] "GET /login HTTP/1.0" 200 -
+ * Detected change in '/home/ahmedb/home/ahmedb/OneDrive/linux_files/Project/ceremony_project/server_market.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 920-759-772
+ * Detected change in '/home/ahmedb/home/ahmedb/OneDrive/linux_files/Project/ceremony_project/server_market.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 920-759-772
+ * Detected change in '/home/ahmedb/home/ahmedb/OneDrive/linux_files/Project/ceremony_project/server_market.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 920-759-772
+ * Detected change in '/home/ahmedb/home/ahmedb/OneDrive/linux_files/Project/ceremony_project/server_market.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 920-759-772
+ * Detected change in '/home/ahmedb/home/ahmedb/OneDrive/linux_files/Project/ceremony_project/server_market.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 920-759-772
+127.0.0.1 - - [22/Dec/2024 17:27:58] "GET /login HTTP/1.0" 200 -
+127.0.0.1 - - [22/Dec/2024 17:27:59] "GET /login HTTP/1.0" 200 -
